@@ -1,0 +1,45 @@
+.list-item {
+  width: 40%;
+}
+
+.button-el {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.imageUrl {
+  width: 100%;
+  border: 10px;
+  margin-bottom: 7px;
+}
+
+.active-item {
+  border: 3px solid #2dd4bf;
+  border-radius: 10px;
+}
+
+.name {
+  font-size: 17px;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+}
+
+.location {
+  font-size: 14px;
+  color: white;
+  font-family: 'Roboto';
+  margin: 0px;
+  padding: 0px;
+}

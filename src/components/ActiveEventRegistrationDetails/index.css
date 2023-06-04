@@ -1,0 +1,49 @@
+.yetToRegister-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  height: 100vh;
+  width: 100%;
+}
+
+.yetToRegisterImg {
+  width: 60%;
+}
+
+.yetToPara {
+  color: #64748b;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.registrationButton {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: white;
+  background-color: #0967d2;
+  cursor: pointer;
+  border: 1px;
+  text-align: center;
+  width: 100%;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.registeredImg {
+  height: 100px;
+  width: 100px;
+}
+
+.registeredHeading {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-top: 20px;
+  margin-bottom: 10px;
+}

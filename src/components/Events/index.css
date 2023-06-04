@@ -1,0 +1,42 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.events-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  background-color: #64748b;
+  width: 60%;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.activeItem-container {
+  width: 40%;
+}
+
+.Events {
+  font-size: 28px;
+  color: white;
+  font-weight: 700;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 15px;
+}
+
+.un-list-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  width: 90%;
+}
